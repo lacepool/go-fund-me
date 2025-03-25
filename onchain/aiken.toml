@@ -1,0 +1,23 @@
+name = "lacepool/go-fund-me"
+version = "0.0.0"
+compiler = "v1.1.9"
+plutus = "v3"
+license = "MIT"
+description = "Aiken contracts for project 'lacepool/go-fund-me'"
+
+[repository]
+user = "lacepool"
+project = "go-fund-me"
+platform = "github"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "v2.2.0"
+source = "github"
+
+[[dependencies]]
+name = "sidan-lab/vodka"
+version = "0.1.11"
+source = "github"
+
+[config]
